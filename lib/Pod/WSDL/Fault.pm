@@ -1,11 +1,10 @@
 package Pod::WSDL::Fault;
 use strict;
 use warnings;
-use Carp;
 
 use Pod::WSDL::AUTOLOAD;
 
-our $VERSION = 0.01;
+our $VERSION = "0.02";
 our @ISA = qw/Pod::WSDL::AUTOLOAD/;
 
 our %FORBIDDEN_METHODS = (
